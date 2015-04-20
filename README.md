@@ -10,20 +10,34 @@ Command line tool for Firefox.
 
 # Usage
 
-* List tabs
+## Tabs
 
-`$ tab list`
+List tabs.
 
-* Show url of active tab
+`$ ffcmd tab list`
 
-`$ tab current`
+Show url of active tab.
 
-`$ tab open [url]`
+`$ ffcmd tab current`
 
-`$ tab select [index]`
+Open new tab.
 
-`$ tab set-url [url]`
+`$ ffcmd tab open [url]`
 
-`$ tab close`
+Select tab.
 
-`$ tab ready-state`
+`$ ffcmd tab select [index]`
+
+Set url of active tab.
+
+`$ ffcmd tab set-url [url]`
+
+Close active tab
+
+`$ ffcmd tab close`
+
+Show state of active tab.
+
+`$ ffcmd tab ready-state`
+
+
