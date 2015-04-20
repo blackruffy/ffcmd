@@ -10,9 +10,7 @@ Command line tool for Firefox.
 
 # Usage
 
-## Tabs
-
-List tabs.
+Show list of tabs.
 
 `$ ffcmd tab list`
 
@@ -22,7 +20,7 @@ Show url of active tab.
 
 Open new tab.
 
-`$ ffcmd tab open [url]`
+`$ ffcmd tab open [URL]`
 
 Select tab.
 
@@ -30,7 +28,7 @@ Select tab.
 
 Set url of active tab.
 
-`$ ffcmd tab set-url [url]`
+`$ ffcmd tab set-url [URL]`
 
 Close active tab
 
@@ -40,4 +38,29 @@ Show state of active tab.
 
 `$ ffcmd tab ready-state`
 
+Show list of windows.
+
+`$ ffcmd window list`
+
+Show active window.
+
+`$ ffcmd window current`
+
+Open new window.
+
+`$ ffcmd window open [URL]`
+
+Select window.
+
+`$ ffcmd window select [index]`
+
+Close active window
+
+`$ ffcmd window close`
+
+Eval JavaScript.
+
+`$ ffcmd js [source code]`
+
+`$ ffcmd js --file [file]`
 
