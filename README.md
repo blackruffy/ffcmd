@@ -58,7 +58,7 @@ Close active window
 
 `$ ffcmd window close`
 
-Eval JavaScript.
+Evaluate JavaScript in the active tab.
 
 `$ ffcmd js [source code]`
 
