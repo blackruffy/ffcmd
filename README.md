@@ -3,10 +3,10 @@ Command line tool for Firefox.
 
 # Setup
 
-* Download zip file from this page.
-* Unpack zip file 
-* Drag addon/ffcmd.xpi and drop it to your firefox.
-* Set PATH environment variable to bin/ffcmd
+* Download the zip file from this page.
+* Unpack the zip file.
+* Drag addon/ffcmd.xpi and drop it on your Firefox.
+* Set the PATH environment variable to bin/ffcmd
 
 # Usage
 
