@@ -64,3 +64,9 @@ Evaluate JavaScript in the active tab.
 
 `$ ffcmd js --file [file]`
 
+Examples:
+
+`ffcmd js "return window.location.href;"`
+
+`ffcmd js "return findByXPath(document.body, '//span[@class=\"author\"]')[0].textContent"`
+
