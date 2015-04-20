@@ -1,5 +1,5 @@
 # ffcmd
-Firefox command line tool.
+Command line tool for Firefox.
 
 # Setup
 
@@ -10,4 +10,14 @@ Firefox command line tool.
 
 # Usage
 
-`$ ffcmd [command]`
+* List tabs
+`$ tab list`
+
+* Show url of active tab
+`$ tab current`
+
+`$ tab open [url]`
+`$ tab select [index]`
+`$ tab set-url [url]`
+`$ tab close`
+`$ tab ready-state`
