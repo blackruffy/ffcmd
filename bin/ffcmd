@@ -1,0 +1,4 @@
+#!/bin/bash
+
+java -jar ${0%ffcmd}/../target/scala-2.11/ffcmd.jar $*
+
