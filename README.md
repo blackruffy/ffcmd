@@ -10,63 +10,47 @@ Command line tool for Firefox.
 
 # Usage
 
-Show list of tabs.
-
+Show list of tabs.  
 `$ ffcmd tab list`
 
-Show url of active tab.
-
+Show url of active tab.  
 `$ ffcmd tab current`
 
-Open new tab.
-
+Open new tab.  
 `$ ffcmd tab open [URL]`
 
-Select tab.
-
+Select tab.  
 `$ ffcmd tab select [index]`
 
-Set url of active tab.
-
+Set url of active tab.  
 `$ ffcmd tab set-url [URL]`
 
-Close active tab
-
+Close active tab  
 `$ ffcmd tab close`
 
-Show state of active tab.
-
+Show state of active tab.  
 `$ ffcmd tab ready-state`
 
-Show list of windows.
-
+Show list of windows.  
 `$ ffcmd window list`
 
-Show active window.
-
+Show active window.  
 `$ ffcmd window current`
 
-Open new window.
-
+Open new window.  
 `$ ffcmd window open [URL]`
 
-Select window.
-
+Select window.  
 `$ ffcmd window select [index]`
 
-Close active window
-
+Close active window  
 `$ ffcmd window close`
 
-Evaluate JavaScript in the active tab.
-
-`$ ffcmd js [source code]`
-
+Evaluate JavaScript in the active tab.  
+`$ ffcmd js [source code]`  
 `$ ffcmd js --file [file]`
 
-Examples:
-
-`ffcmd js "return window.location.href;"`
-
+Examples:  
+`ffcmd js "return window.location.href;"`  
 `ffcmd js "return findByXPath(document.body, '//span[@class=\"author\"]')[0].textContent"`
 
