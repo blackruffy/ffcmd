@@ -48,8 +48,8 @@ Close active window
 
 Evaluate JavaScript in the active tab.  
 `$ ffcmd js [source code]`  
-`$ ffcmd js --file=[file] [source code]`
-`$ ffcmd js --type=[text or json] [source code]`
+`$ ffcmd js --file=[file] [source code]`  
+`$ ffcmd js --type=[text or json] [source code]`  
 
 Examples:  
 `ffcmd js "return window.location.href;"`  
