@@ -1,5 +1,5 @@
 # ffcmd
-Command line tool for Firefox.
+The command line tool for Firefox.
 
 # Setup
 
