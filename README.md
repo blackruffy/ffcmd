@@ -5,7 +5,7 @@ The command line tool for Firefox.
 
 * Download the zip file from this page.
 * Unpack the zip file.
-* Drag addon/ffcmd.xpi and drop it on your Firefox.
+* Drag and drop the addon/ffcmd.xpi file to your Firefox.
 * Set the PATH environment variable to bin/ffcmd
 
 # Usage
